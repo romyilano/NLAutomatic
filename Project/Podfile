@@ -1,4 +1,5 @@
-pod "NLAutomatic", :path => "../NLAutomatic.podspec"
+# pod "NLAutomatic", :path => "../NLAutomatic.podspec"
+pod 'NLAutomatic'
 
 pod 'Reveal-iOS-SDK'
 # target "NLAutomatic" do
@@ -6,6 +7,6 @@ pod 'Reveal-iOS-SDK'
 # end
 
 target "Specs" do
-  pod 'Specta', :head
-  pod 'Expecta', :head
+  pod 'Specta'
+  pod 'Expecta'
 end

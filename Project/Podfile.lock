@@ -1,12 +1,12 @@
 PODS:
-  - AFNetworking/NSURLConnection (2.5.2):
+  - AFNetworking/NSURLConnection (2.6.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.2)
-  - AFNetworking/Security (2.5.2)
-  - AFNetworking/Serialization (2.5.2)
-  - Expecta (HEAD based on 0.3.2)
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - Expecta (1.0.5)
   - NLAutomatic (0.1.0):
     - NLAutomatic/Adapter (= 0.1.0)
     - NLAutomatic/MKPolyline (= 0.1.0)
@@ -17,26 +17,24 @@ PODS:
   - NLAutomatic/Promise (0.1.0):
     - NLAutomatic/Adapter
     - PromiseKit/Promise
-  - PromiseKit/Promise (1.4.2)
+  - PromiseKit/Promise (1.7.2)
   - Reveal-iOS-SDK (1.5.1)
-  - Specta (HEAD based on 0.5.0)
+  - Specta (1.0.5)
 
 DEPENDENCIES:
-  - Expecta (HEAD)
-  - NLAutomatic (from `../NLAutomatic.podspec`)
+  - Expecta
+  - NLAutomatic
   - Reveal-iOS-SDK
-  - Specta (HEAD)
-
-EXTERNAL SOURCES:
-  NLAutomatic:
-    :path: ../NLAutomatic.podspec
+  - Specta
 
 SPEC CHECKSUMS:
-  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
-  Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   NLAutomatic: 4480f3297183d1e75f383403d56abe82866174c6
-  PromiseKit: ea36001b558f42aa104a1422f305b46f8c343f2e
+  PromiseKit: 102844c7b5ccff53f693e0710365c445d8df3871
   Reveal-iOS-SDK: c9c55cad2729c85f6ced415f1b21857c9a2d8ef9
-  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
-COCOAPODS: 0.36.0
+PODFILE CHECKSUM: 28c790b47948adc8094700edf63bc05f0974c715
+
+COCOAPODS: 1.0.1
